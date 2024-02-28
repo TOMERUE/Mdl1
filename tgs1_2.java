@@ -2,7 +2,7 @@ public class tgs1_2 {
         public static void main(String[] args) {
             String adminUsername = "admin";
             String adminPassword = "admin123";
-            String studentNIM = "123456789012345";
+            String studentNIM = "202310370311101";
 
             loginAdmin(adminUsername, adminPassword);
             loginStudent(studentNIM);
