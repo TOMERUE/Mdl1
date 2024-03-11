@@ -1,3 +1,5 @@
+import java.util.*;
+
 
 public class tgs1 {
     private static final String ADMIN_USERNAME = "admin";
@@ -14,6 +16,9 @@ public class tgs1 {
 
     public static void main(String[] args) {
         // Contoh penggunaan sistem login
+        System.out.println("Pilih Menu: ");
+        
+
         String mahasiswaNIM = "123456789012345";
         if (mahasiswaLogin(mahasiswaNIM)) {
             System.out.println("Login Mahasiswa Berhasil");
