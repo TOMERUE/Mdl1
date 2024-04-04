@@ -86,6 +86,7 @@ class Book {
     private String title;
     private String author;
     private String category;
+    private int loanDuration;
     private int stock;
 
     public Book(String id, String title, String author, String category, int stock) {
@@ -114,6 +115,18 @@ class Book {
 
     public int getStock() {
         return stock;
+    }
+
+    public void setStock(int stock) {
+        this.stock = stock;
+    }
+
+    public int getLoanDuration() {
+        return loanDuration;
+    }
+
+    public void setLoanDuration(int loanDuration) {
+        this.loanDuration = loanDuration;
     }
 
 }
