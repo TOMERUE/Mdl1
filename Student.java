@@ -48,6 +48,7 @@ public class Student extends tgs1 {
         userStudent.add(new Student("Why", "200510370319321", "Teknik", "Mesin"));
 
     }
+    
 
     public void menuStudent(Scanner scanner) {
         while (true) {
